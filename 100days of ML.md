@@ -1,6 +1,6 @@
 # 100天机器学习
 ## day1 数据预处理
-```
+```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #100-Days-Of-ML-Code day1 数据预处理
