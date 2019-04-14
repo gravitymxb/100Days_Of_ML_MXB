@@ -17,4 +17,6 @@
 # 2019.04.14学习日志
 ## 主要内容：   学习day2代码
 1、用`pd.read_csv`读取文件时，文件路径的填写方式：  
-`'D:\python_pycharm\data\studentscores.csv'`或直接在pycharm上找到文件，再copy path
+`'D:\python_pycharm\data\studentscores.csv'`或直接在pycharm上找到文件，再copy path  
+2、读取list
+例：`X = dataset.iloc[:, :1].values`  #  ` : `即为读取全部行，`:1 ` 为从第0列到第一列
