@@ -13,3 +13,8 @@
   conda config --set show_channe1_urls yes
   ```  
 4、初次安装的包一般比较老，为防止出错在命令行模式执行 ```conda update --all```命令对所有包进行升级。
+
+# 2019.04.14学习日志
+## 主要内容：   学习day2代码
+1、用`pd.read_csv`读取文件时，文件路径的填写方式：  
+`'D:\python_pycharm\data\studentscores.csv'`或直接在pycharm上找到文件，再copy path
