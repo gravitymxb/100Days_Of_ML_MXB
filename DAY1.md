@@ -25,11 +25,11 @@ X[ : ,1:3] = imputer.transform(X[ : ,1:3])
 
 #第四步 解决分类数据
 from sklearn.preprocessing import LabelEncoder
-labelencoder_X = LabelEncoder()
+labelencoder_X = LabelEncoder()   #简单来说 LabelEncoder 是对不连续的数字或者文本进行编号
 #sklearn.preprocessing.LabelEncoder():标准化标签，将标签值统一转换成range（标签值个数-1）范围内
 X[:, 0] = labelencoder_X.fit_transform(X[:,0])
 #创建虚拟变量
-onehotencoder = OneHotEncoder(categorical_features = [0])
+onehotencoder = OneHotEncoder(categorical_features = [0])   #OneHotEncoder 用于将表示分类的数据扩维
 X = onehotencoder.fit_transform(X).toarray()
 labelencoder_Y = LabelEncoder()
 Y = labelencoder_Y.fit_transform(Y)
