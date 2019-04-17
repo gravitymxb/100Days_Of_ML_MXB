@@ -1,6 +1,6 @@
 # 100天机器学习
 ## day2 简单线形回归模型
-```
+```python
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # 100-Days-Of-ML-Code day2 简单线性回归模型
@@ -15,9 +15,10 @@ import matplotlib.pyplot as plt   # Matplotlib是一个Python 2D绘图库，它�
 # plt.ylabel('some numebers')
 # plt.show()                     试用matplotlib画图
 
-dataset = pd.read_csv('D:\python_pycharm\data\studentscores.csv')
-# 手动找到文件并路径，记书写路径方法：D:\python_pycharm\data\studentscores.csv；
-# 或直接用pycharm找到文件再：copy path
+dataset = pd.read_csv('studentscores.csv')
+# 手动找到文件并路径，记书写路径方法：D:\python_pycharm\data\studentscores.csv:
+# 上边为绝对路径，应改为相对路径（将csv文件与代码的py文件放到同一个文件夹下）使代码更简洁，不易出错
+
 # print(dataset)
 X = dataset.iloc[:, :1].values   #输出全部行，第0列的list   而且value:将表的形式转化为矩阵或者向量；iloc:提取时前闭后开
 Y = dataset.iloc[:, 1].values    #输出全部行，第1列的list
