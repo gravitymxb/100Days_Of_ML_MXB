@@ -17,7 +17,8 @@
    纠正了之前的一些错误，如读取csv文件我一直用的绝对路径（用相对路径——将csv文件与py文件放在一起）   
    代码注释放在代码下边（应放在上边，翻看群记录发现学长说过）  
    另外，根据群聊学习了虚拟变量陷阱、独热编码等    
-   [LabelEncoder 和 OneHotEncoder 辨析](https://blog.csdn.net/weixin_38656890/article/details/80849334)   
+   [LabelEncoder 和 OneHotEncoder 辨析](https://blog.csdn.net/weixin_38656890/article/details/80849334)    
+   [数据挖掘OneHotEncoder独热编码和LabelEncoder标签编码](https://blog.csdn.net/ccblogger/article/details/80010974)  
    
 # 2019.04.16学习日志  
 1、学习了`matplotlib.pyplot`的运用：  
