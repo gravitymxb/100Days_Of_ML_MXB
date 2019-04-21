@@ -1,3 +1,15 @@
+# 2019.04.21学习日志
+* StandardScaler类 作用：去均值和方差归一化。且是针对每一个特征维度来做的，而不是针对样本。  
+  其中fit_transform 和 transform 的区别：  
+     * fit_transform()先拟合数据，再标准化    
+     * transform()数据标准化    
+     * 具体见[通俗地讲清楚fit_transform()和transform()的区别](https://blog.csdn.net/appleyuchi/article/details/73503282) 以及 [有关StandardScaler的transform和fit_transform方法](https://www.jianshu.com/p/2a635d9e894d)   
+* 混淆矩阵（Confusion Matrix）  
+    * 又称为可能性表格或是错误矩阵。  
+    * 它是一种特定的矩阵用来呈现算法性能的可视化效果，通常是监督学习（非监督学习，通常用匹配矩阵：matching matrix）。其每一列代表预测值，每一行代表的是实际的类别。这个名字来源于它可以非常容易的表明多个类别是否有混淆（也就是一个class被预测成另一个class）。
+    * 具体见[混淆矩阵分析]（https://blog.csdn.net/vesper305/article/details/44927047）  
+    
+
 # 2019.04.19学习日志
 见[DAY4.md](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/DAY4.md)
 # 2019.04.18学习日志  
