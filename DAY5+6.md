@@ -89,3 +89,7 @@ plt. ylabel(' Estimated Salary')
 plt. legend()
 plt. show()
 ```
+![LOGISTIC(Training set).png](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/LOGISTIC(Training%20set).png)  
+
+![LOGISTIC(Test set).png](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/LOGISTIC(Test%20set).png)
+
