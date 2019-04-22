@@ -3,7 +3,7 @@
 * 降维算法中的“降维”：指的是降低特征矩阵中特征的数量，目的是让算法运算快，效果好，另外可使 数据可视化（三维及以下可视）  
 * 运用StandardScaler出现警告：DataConversionWarning: Data with input dtype int64 were all converted to float64 by StandardScaler.    
   解决方法：指定数据类型：`X_train = X_train.astype(np.float64)` 和` X_test = X_test.astype(np.float64)`
-* 
+* **fit**会重置模型： scikit-learn模型的一个重要性质，调用fit总会重置模型之前学习到的所有内容，因此，如果在一个数据集上构建模型，然后再在另一个数据集上再次调用fit，那么模型会‘忘记’从第一个数据集中学到的所有内容。可以对一个模型多次调用fit，其结果与在‘新’模型上调用fit是完全相同的。
 # 2019.04.21学习日志
 * StandardScaler类 作用：去均值和方差归一化。且是针对每一个特征维度来做的，而不是针对样本。  
   其中fit_transform 和 transform 的区别：  
@@ -14,7 +14,7 @@
     * 又称为可能性表格或是错误矩阵。  
     * 它是一种特定的矩阵用来呈现算法性能的可视化效果，通常是监督学习（非监督学习，通常用匹配矩阵：matching matrix）。其每一列代表预测值，每一行代表的是实际的类别。这个名字来源于它可以非常容易的表明多个类别是否有混淆（也就是一个class被预测成另一个class）。
     * 具体见[混淆矩阵分析]（https://blog.csdn.net/vesper305/article/details/44927047）  
-    
+
 
 # 2019.04.19学习日志
 见[DAY4.md](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/DAY4.md)
