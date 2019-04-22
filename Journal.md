@@ -19,7 +19,7 @@
 
 
 # 2019.04.19学习日志
-见[DAY4.md](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/DAY4.md)
+逻辑回归相关 见[DAY4.md](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/DAY4.md)
 # 2019.04.18学习日志  
 1、欠拟合与过拟合的概念：  
    两者都是模型学习能力与数据复杂度之间失配的结果  
