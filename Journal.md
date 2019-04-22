@@ -1,3 +1,9 @@
+# 2019.04.22 学习日志
+* 维度（特征维度）：一般无特别说明，指的都是特征的数量。  [维度其他角度理解](https://blog.csdn.net/yoggiecda/article/details/88574418)   
+* 降维算法中的“降维”：指的是降低特征矩阵中特征的数量，目的是让算法运算快，效果好，另外可使 数据可视化（三维及以下可视）  
+* 运用StandardScaler出现警告：DataConversionWarning: Data with input dtype int64 were all converted to float64 by StandardScaler.    
+  解决方法：指定数据类型：`X_train = X_train.astype(np.float64)` 和` X_test = X_test.astype(np.float64)`
+* 
 # 2019.04.21学习日志
 * StandardScaler类 作用：去均值和方差归一化。且是针对每一个特征维度来做的，而不是针对样本。  
   其中fit_transform 和 transform 的区别：  
