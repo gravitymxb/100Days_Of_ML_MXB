@@ -9,7 +9,7 @@ k的含义是预测新数据时可以考虑任意个（K个）邻居
 * **k近邻分类**   1.只考虑最近的邻居，其预测结果就是该邻居的标签。2.考虑多余一个邻居时，采用‘投票法’来指定标签，即选择邻居多的一方的标签。   
 * 计算距离是一般采用欧氏距离计算，简单理解即利用两点间的距离公式计算。   
 * KNeighborsClassifier使用方法：1.创建KNeighborsClassifier对象，2.调用fit函数，3.调用predict函数进行预测。
-* [random_state](https://blog.csdn.net/Perfect_Accepted/article/details/81151952)目的是为了确定相同的划分规则，因为test_size只是划分了比例，相同的比例不同的划分规则得到的训练集以及测试集也是不同的。  
+* [random_state](https://blog.csdn.net/Perfect_Accepted/article/details/81151952)目的是为了确定相同的划分规则，因为test_size只是确定了划分的比例，相同的比例不同的划分规则得到的训练集以及测试集也是不同的。  
   random_state的取值范围为0-2^32，不同的数值代表不同的划分规则。数值同则划分规则同，数值异则划分规则异.
 # 2019.04.22 学习日志：
 * 维度（特征维度）：一般无特别说明，指的都是特征的数量。  [维度其他角度理解](https://blog.csdn.net/yoggiecda/article/details/88574418)   
