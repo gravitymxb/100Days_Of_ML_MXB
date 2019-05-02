@@ -1,5 +1,5 @@
 # 100天机器学习
-## day8 逻辑回归  详细概述
+## day8 逻辑回归  续
 
 * 逻辑回归算法的性质是：它的输出值永远在0-1之间。故适合作为一种分类算法。  
 * 分类问题希望使分类器输出值在0-1之间，故需要一个满足该性质的假设函数h(x), 故引出sigmoid函数     具体见[DAY4](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/DAY4.md)   
