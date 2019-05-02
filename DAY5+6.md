@@ -1,5 +1,5 @@
 # 100天机器学习
-## day1 数据预处理
+## day5+6 逻辑回归
 
 ```python
 # !/usr/bin/env python3
