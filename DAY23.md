@@ -87,3 +87,5 @@ plt.show()
 DecisionTreeClassifier()
 
 ```
+![Train set](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/25.Decision%20Tree%20Classification%20(Training%20set).png)
+![Test set](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/25.Decision%20Tree%20Classification%20(Test%20set).png)
