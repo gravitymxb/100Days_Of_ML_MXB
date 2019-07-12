@@ -13,6 +13,7 @@
 * 信息增益是针对某个特征而言的，看该系统有无此特征时的信息量各是多少，两者之间的差值就是该特征给系统带来的信息量，即信息增益。  
 * 该算法的核心思想就是以信息增益来度量属性的选择，选择分裂后信息增益最大的属性进行分裂。该算法采用自顶向下的贪婪搜索遍历可能的决策空间。
 5、代码如下
+
 ```python
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
@@ -84,5 +85,4 @@ plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
 DecisionTreeClassifier()
-
 ```
