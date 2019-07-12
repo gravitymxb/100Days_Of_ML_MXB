@@ -15,5 +15,5 @@
 5、代码如下
 
 ```python
-import numpy at np
+import numpy as np
 ```
