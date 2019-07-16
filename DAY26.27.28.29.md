@@ -1,1 +1,8 @@
-![]()
+# day26~29 线性代数本质
+![线代1](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/26%E5%9B%BE%20%E7%BA%BF%E4%BB%A31.jpg)
+![线代2](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/26%E5%9B%BE%20%E7%BA%BF%E4%BB%A32.jpg)
+![线代3](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/26%E5%9B%BE%20%E7%BA%BF%E4%BB%A33.jpg)
+![线代4](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/26%E5%9B%BE%20%E7%BA%BF%E4%BB%A34.jpg)
+![线代5](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/26%E5%9B%BE%20%E7%BA%BF%E4%BB%A35.jpg)
+![线代6](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/26%E5%9B%BE%20%E7%BA%BF%E4%BB%A36.jpg)
+![线代7](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/26%E5%9B%BE%20%E7%BA%BF%E4%BB%A37.jpg)
