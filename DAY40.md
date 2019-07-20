@@ -1,13 +1,16 @@
 # DAY40 
-1、新引入了两个模块os与cv2   
+1、新引入的模块os、cv2、pickle   
 **os模块**：os模块提供了多数操作系统的功能接口函数。当os模块被导入后，它会自适应于不同的操作系统平台，根据不同的平台进行相应的操作。用于对文件、目录等进行操作   
 **cv2模块**：即opencv，可以用于处理图像信息——改变大小、腐蚀图像、膨胀图像、等等。   
+**pickle**：只在python用的序列化与反序列化，只支持python的基本数据类型，可以处理复杂的序列化语法。序列化时只序列化整个序列对象，而不是内存地址。它可以将对象数据压到一个文件中，永久保存。这样在取用时，只需将该文件中的数据取出。而不是每次都重新进过各种语句，处理得到对象数据。   
 2、部分函数    
-cv2.imread(文件名，标记)读入图像，
-cv2.IMREAD_COLOR（）：读入彩色图像
-cv2.IMREAD_GRAYSCALE（）：以灰度模式读入图像
-cv2.imshow()：显示图像
-cv2.imwrite(文件名，img)：保存图像
+cv2.imread(文件名，标记)读入图像    
+cv2.IMREAD_COLOR（）：读入彩色图像   
+cv2.IMREAD_GRAYSCALE（）：以灰度模式读入图像   
+cv2.imshow()：显示图像   
+cv2.imwrite(文件名，img)：保存图像  
+pickle.dump（obj,file,protocal）将对象数据存入文件  
+pickle.load(file)从文件中取数据，重新构建出对象数据   
 
 代码如下   
 ```python
