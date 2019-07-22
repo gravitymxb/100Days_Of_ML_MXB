@@ -98,3 +98,6 @@ plt.xlabel('free throw hit rate')
 plt.ylabel('hit rate')
 plt.show()
 ```
+![](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/44.1.png)
+![](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/44.2.png)
+![](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/44.3.png)
