@@ -22,6 +22,19 @@
 [详解](https://zhuanlan.zhihu.com/p/61510829)
 代码如下：
 ```python
+import tensorflow as tf
+from tensorflow.keras.datasets import cifar10
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
+from tensorflow.keras.layers import Conv2D, MaxPooling2D
+import pickle
+
+pickle_in = open("D:/python_pycharm/datasets/X.pickle","rb")
+X = pickle.load(pickle_in)
+pickle_in = open("D:/python_pycharm/datasets/y.pickle","rb")
+y = pickle.load(pickle_in)
+
 X = X/255.0
 model = Sequential()
 model.add(Conv2D(256, (3, 3), input_shape=X.shape[1:]))
