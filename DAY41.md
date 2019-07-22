@@ -20,6 +20,19 @@
     最大池化：池化区域内所有值中的最大值作为池化结果。   
 
 [详解](https://zhuanlan.zhihu.com/p/61510829)
-
-
+代码如下：
+```python
+X = X/255.0
+model = Sequential()
+model.add(Conv2D(256, (3, 3), input_shape=X.shape[1:]))
+model.add(Activation('relu'))
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Dense(64))
+model.add(Dense(1))
+model.add(Activation('sigmoid'))
+model.compile(loss='binary_crossentropy',
+              optimizer='adam',
+              metrics=['accuracy'])
+model.fit(X, y, batch_size=32, epochs=3, validation_split=0.3)
+```
 
