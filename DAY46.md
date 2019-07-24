@@ -54,9 +54,9 @@ a.shape -> (2, 3)
 3、比较、掩码、布尔运算  
 比较：   
 
-operator  | equivalent ufunc | operator | equivalent ufunc
+operator | equivalent ufunc | operator | equivalent ufunc
 -------- | ---------------- | ---------|------
-== | np.equal  | != | np.not_equal
+== | np.equal | != | np.not_equal
 < | np.less  |  <= | np.less_equal
 > | np.greater |  >= | np.greater_equal
 布尔运算符以及作为掩码操作:     
