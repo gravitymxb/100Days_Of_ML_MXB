@@ -50,3 +50,9 @@ a.shape -> (1, 3)
 M.shape -> (2, 3)
 a.shape -> (2, 3)
 ```
+3、比较、掩码、布尔运算
+    "| Operator\t    | Equivalent ufunc    || Operator\t   | Equivalent ufunc    |\n",
+    "|---------------|---------------------||---------------|---------------------|\n",
+    "|``==``         |``np.equal``         ||``!=``         |``np.not_equal``     |\n",
+    "|``<``          |``np.less``          ||``<=``         |``np.less_equal``    |\n",
+    "|``>``          |``np.greater``       ||``>=``         |``np.greater_equal`` |"
