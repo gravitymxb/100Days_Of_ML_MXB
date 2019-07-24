@@ -53,10 +53,40 @@ plt.scatter(selection[:, 0], selection[:, 1],
             facecolor='red', s=200)
 plt.show()
 ```
-![47.1]()
-![47.2]()
-
+![47.1](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/47.1.png)
+![47.2](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/47.2.png)
 
 ## 2.8 数组的排序
+* 快速排序  
+```python
+x = np.array([2, 1, 4, 3, 5])
+b = np.sort(x)    # 快速排序操作
+i = np.argsort(x)   # 返回已排序数组的索引值
+print(b)
+print(i)
+# 输出：
+[1 2 3 4 5]
+[1 0 3 2 4]
+```
+* 按照行或列排序
+```python
+print(np.sort(X, axis=0))  # 按列排序
+print(np.sort(X, axis=1))  # 按行排序
+```
+* 部分分类法
+```python
+x = np.array([7, 2, 3, 1, 6, 5, 4])
+a = np.partition(x, 3)    # 按照第3个数即3进行分类，小于3的元素2，1放3前面，大于等于3的数放后面
+print（a）
+# 输出为：
+[2 1 3 4 6 5 7]
+```
 
 ## 2.9 结构化数据
+```python
+data = np.zeros(4, dtype={'names': ('name', 'age', 'weight'),
+                          'formats': ('U10', 'i4', 'f8')})
+# u10指的是最大长度为10的Unicode字符串
+   i4为4字节int型   
+   f8 为8字节 float型
+```
