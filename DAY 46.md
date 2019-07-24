@@ -53,6 +53,7 @@ operator  | equivalent ufunc  | operator | equivalent ufunc
 ==  | np.equal | !=  | np.not_equal 
 <  | np.less | <= | np.less_equal
 >   | np.greater | >= | np.greater_equal  
+
 布尔运算以及掩码操作：   
 ```python
 x = np.array[1, 2, 3, 4, 5] 
