@@ -39,9 +39,14 @@ a = np.arange(3)
 M.shape = (2, 3)  
 a.shape = (3,)  
 ```
-我们通过规则1看到，数组a的维数较少，因此我们将其放在左边的1上   
+由规则1，
 变为   
 ```python
 M.shape -> (2, 3)
 a.shape -> (1, 3)
+```
+由规则2：
+```python
+M.shape -> (2, 3)
+a.shape -> (2, 3)
 ```
