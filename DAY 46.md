@@ -25,7 +25,7 @@ plt.ylabel('number');
 plt.show()
 ```
 图示：
-![图示]()
+![图示](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/46.1.png)
 
 2、广播   
 广播(Broadcast)是numpy对不同形状(shape)的数组进行数值计算的方式，对数组的算术运算通常在相应的元素上进行。  
@@ -41,7 +41,7 @@ a = np.arange(3)
 M.shape = (2, 3)  
 a.shape = (3,)  
 ```
-由规则1变为                     由规则2    
+由规则1变为      =========>     由规则2变为   
 ```python
 M.shape -> (2, 3)       =>     M.shape -> (2, 3)  
 a.shape -> (1, 3)       =>     a.shape -> (2, 3)   
