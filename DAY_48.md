@@ -1,4 +1,4 @@
-# DAY48.49.50 深入研究pandas  
+# DAY48 深入研究pandas  
 ## Pandas
 * **Pandas概念**：Pandas是在NumPy基础上建立的新程序库，提供了一种高效的DataFrame数据结构。其中的DataFrame是一种带行标签和列标签、支持相同类型数据和缺失值的多维数组。   
 * Pandas的三个基本数据结构：Series、DataFrame和Index。
