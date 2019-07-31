@@ -17,7 +17,7 @@ plt.hist(data, bins=30,  # 指定条状图的个数
          edgecolor='red')      # 设定edge的颜色
 plt.show()
 ```
-![tu1]()
+![tu1](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/52.1.png)
 2、二维直方图以及装箱操作
 
 ```python
@@ -34,7 +34,7 @@ cb = plt.colorbar()  # 显示颜色变化柱
 cb.set_label('counts in bin')
 plt.show()
 ```
-![tu2]()
+![tu2](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/52.2.png)
 ## 配置颜色条
 ```python
 import matplotlib.pyplot as plt
@@ -48,7 +48,7 @@ plt.imshow(I, cmap='gray')  # 映射为灰度
 plt.colorbar()              # 配置颜色条函数
 plt.show()
 ```
-![tu3]()
+![tu3](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/52.3.png)
 ## 多子图 
 ```python
 import matplotlib.pyplot as plt
@@ -58,7 +58,7 @@ ax1 = plt.axes()  # 标准图
 ax2 = plt.axes([0.65, 0.65, 0.2, 0.2])   # 设置宽度和高度的比例为0.65，设置轴的0.2比例
 plt.show()
 ```
-![tu4]()
+![tu4](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/52.4.png)
 ```python
 # 非对称子图，设置为2行3列，子图之间宽度间隔为0.4，高度间隔为0.3
 grid = plt.GridSpec(2, 3, wspace=0.4, hspace=0.3)
@@ -70,4 +70,4 @@ plt.subplot(grid[1, 2])
 
 plt.show()
 ```
-![tu5]()
+![tu5](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/52.5.png)
