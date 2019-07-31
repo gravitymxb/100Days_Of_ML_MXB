@@ -65,27 +65,15 @@ plt.show()
 ```
 ## 可视化异常处理
 ```python 
-plt.errorbar()    函数用于表现有一定置信区间的带误差数据。
-plt.errorbar(x,   
-	y,   
-	yerr=None,  
-	xerr=None,  # xerr,yerr: 数据的误差范围  
-	fmt='',   # 数据点的标记样式以及相互之间连接线样式
-	ecolor=None, 
-	elinewidth=None,   # 误差棒的线条粗细
-	capsize=None,   # 误差棒边界横杠的大小
-	capthick=None  # 误差棒边界横杠的厚度
-)
-
 import matplotlib.pyplot as plt
+plt.style.use('seaborn-whitegrid')
 import numpy as np
 
 x = np.linspace(0, 10, 50)
 dy = 0.8
 y = np.sin(x) + dy * np.random.randn(50)
-
-plt.style.use('seaborn-whitegrid')
-plt.errorbar(x, y, yerr=dy, fmt='.k')
+plt.errorbar(x, y, yerr=dy, fmt='.k') # 此函数即为输出带误差数据的函数
 plt.show()
+![tu4]()
 ```
 
