@@ -28,9 +28,10 @@ plt.plot(x, np.sin(x))
 plt.subplot(2, 1, 2)
 plt.plot(x, np.cos(x))
 plt.show()
-输出为：
-![tu1](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.1.png)
+
 ```
+输出为：  
+![tu1](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.1.png)
 ## 简易散点图
 ```python
 import matplotlib.pyplot as plt
@@ -42,7 +43,7 @@ y = np.sin(x)
 plt.style.use('seaborn-whitegrid')  # 设置画图风格为seaborn-whitegrid
 plt.plot(x, y, 'o', color='black')  # 点色为黑
 plt.show()
-![tu2](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.2.png)
+
 
 
 rng = np.random.RandomState(0)  # 固定随机数种子
@@ -52,17 +53,20 @@ for marker in ['o', '.', ',', 'x', '+', 'v', '^', '<', '>', 's', 'd']:  # 各种
 plt.legend(numpoints=1)
 plt.xlim(0, 1.8)
 plt.show()
-![tu3](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.3.png)
+
 
 ```
+![tu2](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.2.png)
+![tu3](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.3.png)
 * 用scatter画散点图
 ```python
 x = np.linspace(0, 10, 30)
 y = np.sin(x)
 plt.scatter(x, y, marker='o')  # 散点函数
 plt.show()
-![tu4](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.4.png)
+
 ```
+![tu4](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.4.png)
 ## 可视化异常处理
 ```python 
 import matplotlib.pyplot as plt
@@ -74,6 +78,6 @@ dy = 0.8
 y = np.sin(x) + dy * np.random.randn(50)
 plt.errorbar(x, y, yerr=dy, fmt='.k') # 此函数即为输出带误差数据的函数
 plt.show()
-![tu5](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.5.png)
-```
 
+```
+![tu5](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/51.5.png)
