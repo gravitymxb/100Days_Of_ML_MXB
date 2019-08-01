@@ -8,7 +8,7 @@ fig = plt.figure()
 ax = plt.axes(projection='3d')     # 指定画3D图
 plt.show()
 ```
-![tu1]()
+![tu1](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/53.1.png)
 
 2、三维图中点与线的可视化
 ```python
@@ -32,7 +32,7 @@ ydata = np.cos(zdata) + 0.1 * np.random.randn(100)
 ax.scatter3D(xdata, ydata, zdata, c=zdata, cmap='Greens')  # 默认情况下 散点图中点的透明度是不一的，使其有深度感
 plt.show()
 ```
-![tu2]()
+![tu2](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/53.2.png)
 3、三维等高线图
 ```python
 from mpl_toolkits import mplot3d 
@@ -58,7 +58,7 @@ ax.set_zlabel('z')
 
 plt.show()
 ```
-![tu3]()
+![tu3](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/53.3.png)
 4、线框图与曲面图
 ```python
 
@@ -83,7 +83,7 @@ ax.set_title('wireframe')
 
 plt.show()
 ```
-![]()
+![tu4](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/53.4.png)
 
 ```python
 from mpl_toolkits import mplot3d 
@@ -108,4 +108,4 @@ ax.set_title('surface')
 plt.show()
 
 ```
-![]()
+![tu5](https://github.com/gravitymxb/100Days_Of_ML_MXB/blob/master/53.5.png)
